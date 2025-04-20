@@ -1,0 +1,25 @@
+{
+  "name": "dio_translator_azure",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/identity": "latest",
+    "@azure/openai": "^2.0.0",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "docx": "^9.4.1",
+    "dotenv": "^16.5.0",
+    "mammoth": "^1.9.0",
+    "openai": "latest",
+    "pdf-parse": "^1.1.1",
+    "uuid": "^11.1.0"
+  }
+}
